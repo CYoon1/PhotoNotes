@@ -12,6 +12,9 @@
 		D8E390E52C286FE600A35846 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E390E42C286FE600A35846 /* Item.swift */; };
 		D8E390E72C286FE700A35846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E390E62C286FE700A35846 /* Assets.xcassets */; };
 		D8E390EA2C286FE700A35846 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E390E92C286FE700A35846 /* Preview Assets.xcassets */; };
+		D8E390F12C28762200A35846 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E390F02C28762200A35846 /* MainView.swift */; };
+		D8E390F32C28762D00A35846 /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E390F22C28762D00A35846 /* PhotoListView.swift */; };
+		D8E390F52C28764400A35846 /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E390F42C28764400A35846 /* PhotoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		D8E390E42C286FE600A35846 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D8E390E62C286FE700A35846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8E390E92C286FE700A35846 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8E390F02C28762200A35846 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D8E390F22C28762D00A35846 /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
+		D8E390F42C28764400A35846 /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				D8E390E02C286FE600A35846 /* PhotoNotesApp.swift */,
 				D8E390E22C286FE600A35846 /* ContentView.swift */,
+				D8E390F02C28762200A35846 /* MainView.swift */,
+				D8E390F22C28762D00A35846 /* PhotoListView.swift */,
+				D8E390F42C28764400A35846 /* PhotoItem.swift */,
 				D8E390E42C286FE600A35846 /* Item.swift */,
 				D8E390E62C286FE700A35846 /* Assets.xcassets */,
 				D8E390E82C286FE700A35846 /* Preview Content */,
@@ -141,8 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E390E32C286FE600A35846 /* ContentView.swift in Sources */,
+				D8E390F12C28762200A35846 /* MainView.swift in Sources */,
 				D8E390E52C286FE600A35846 /* Item.swift in Sources */,
 				D8E390E12C286FE600A35846 /* PhotoNotesApp.swift in Sources */,
+				D8E390F32C28762D00A35846 /* PhotoListView.swift in Sources */,
+				D8E390F52C28764400A35846 /* PhotoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +291,14 @@
 				DEVELOPMENT_TEAM = 2C89D7FYA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Photo Notes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,11 +323,14 @@
 				DEVELOPMENT_TEAM = 2C89D7FYA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Photo Notes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
